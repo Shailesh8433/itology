@@ -103,9 +103,13 @@ article .fa{
     float:right ;
 }
 
-
-footer #links ul{
+footer h5{
+    padding-top: 10px;
+}
+footer #links  li{
     list-style: none;
+    font-weight: bolder;
+    padding-top: 10px;
 }
 footer #links ul li a{
     color: black;
@@ -155,7 +159,8 @@ footer .fa{
  footer #social ul li{
   flex-direction: column;
   font-weight: bolder;
-
-
-}
+ }
+ #social.fa{
+     font-size: 20px;
+ }
 }
