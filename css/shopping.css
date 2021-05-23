@@ -69,8 +69,16 @@ section p::after{
     position: relative;
     padding-left: 8px;
 }
+section h1::after{
+    content: "";
+    height: 3px;
+    margin: auto 20px ;
+    width: 30%;
+    background-color: brown;
+}
 section h1{
 margin-bottom: 3rem;    
+
 }
 section .top-left {
     position: absolute;
@@ -88,7 +96,7 @@ section .top-left {
 #jwel{
    background-image: url(/img/Mixing-Silver-and-Gold-Jewelry-How-to-Do-it-Right.jpg);
    background-size: cover;
-   height: 55vh;
+   height: 52vh;
    
 }
 section #jwel h5{
@@ -165,5 +173,9 @@ footer .fa{
  #social.fa{
      font-size: 20px;
  }
+ section h1{
+    font-size: 1.5rem;  
+    
+    }
 
 }
