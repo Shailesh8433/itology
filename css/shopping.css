@@ -11,12 +11,7 @@ main{
         background-size: cover;
    height: 25vh;
 }
-    main{
-        height: 42vh;
-    
-    background-size: cover;
-    
-}
+  
 }
 @media screen and (max-width:420px) and (min-width:280px){
     header h5{
