@@ -6,6 +6,18 @@ main{
     
 
 }
+@media screen and (max-width:768px) {
+    section #jwel{
+        background-size: cover;
+   height: 25vh;
+}
+    main{
+        height: 42vh;
+    
+    background-size: cover;
+    
+}
+}
 @media screen and (max-width:420px) and (min-width:280px){
     header h5{
         display: none;
